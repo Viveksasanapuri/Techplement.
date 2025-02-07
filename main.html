@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivek Course Store</title>
+    <link rel="stylesheet" href="bookstore.css">
+</head>
+<body>
+    <div class="fullpage">
+        <div class="contentsearch">
+            <div class="titlepage">
+                <h1 class="title">Vivek Course Store</h1>
+            </div>
+            <div class="searchbar">
+                <input type="text" id="searchQuery" class="search" placeholder="Search for courses">
+                <button class="searchbutton" onclick="searchCourses()">search</button>
+            </div>
+            <div class="logos">
+                <a href="https://www.udemy.com" target="_blank"><img src="./udemy.webp" alt="Udemy" class="platform-logo"></a>
+                <a href="https://www.upgrad.com" target="_blank"><img src="./upgrad.png" alt="UpGrad" class="platform-logo"></a>
+                <a href="https://www.coursera.org" target="_blank"><img src="./coursera.png" alt="Coursera" class="platform-logo"></a>
+            </div>
+            <div class="results" id="results"></div>
+        </div>
+   </div>
+    <script src="bookstore.js"></script>
+</body>
+</html>
